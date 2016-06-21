@@ -1,0 +1,12 @@
+{
+  "name": "atom-material2-snippets",
+  "main": "./lib/atom-material2-snippets",
+  "version": "1.0.0",
+  "description": "Material 2 Snippets for Atom Text Editor",
+  "repository": "https://github.com/deerawan/atom-material2-snippets",
+  "license": "see LICENSE.md",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
