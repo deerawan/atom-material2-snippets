@@ -1,6 +1,10 @@
 # Material 2 Snippets for Atom
 Material 2 Snippets for TypeScript and HTML in Atom
 
+## Installation
+for making HTML snippets works make sure you follow this tutorial
+https://github.com/atom/autocomplete-plus/issues/86#issuecomment-82661027
+
 ## Usage
 Type part of a snippet, press `enter` or `tab`
 

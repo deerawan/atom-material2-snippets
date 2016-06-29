@@ -1,4 +1,25 @@
-'.source.html':
-  'importButton':
-    'prefix': 'md2button'
-    'body': 'import { MD_BUTTON_DIRECTIVES } from \'@angular2-material/button\';'
+'.text.html':
+  'button basic':
+    'prefix': 'md2-button'
+    'body': '<button md-button>${content}</button>'
+    'description': 'Material 2 Button'
+  'button icon':
+    'prefix': 'md2-icon-button'
+    'body': """
+      <button md-icon-button>
+        <md-icon class=\"${1:icon}\"></md-icon>
+      </button>
+    """
+    'description': 'Material 2 Icon Button'
+  'button raised':
+    'prefix': 'md2-raised-button'
+    'body': '<button md-raised-button>${content}</button>'
+    'description': 'Material 2 Raised Button'
+  'button fab':
+    'prefix': 'md2-fab'
+    'body': """
+      <button md-fab>
+        <md-icon class=\"${icon}\"></md-icon>
+      </button>
+    """
+    'description': 'Material 2 Raised Button'
