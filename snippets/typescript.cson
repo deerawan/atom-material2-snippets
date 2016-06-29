@@ -2,3 +2,15 @@
   'importButton':
     'prefix': 'md2-imp-button'
     'body': 'import { MD_BUTTON_DIRECTIVES } from \'@angular2-material/button\';'
+  'importCard':
+    'prefix': 'md2-imp-card'
+    'body': 'import { MD_CARD_DIRECTIVES } from \'@angular2-material/card\';'
+  'importCheckbox':
+    'prefix': 'md2-imp-checkbox'
+    'body': 'import { MD_CHECKBOX_DIRECTIVES } from \'@angular2-material/checkbox\';'
+  'importIcon':
+    'prefix': 'md2-imp-icon'
+    'body': 'import { MD_ICON_DIRECTIVES, MdIconRegistry } from \'@angular2-material/icon\';'
+  'importInput':
+    'prefix': 'md2-imp-input',
+    'body': 'import { MD_INPUT_DIRECTIVES } from \'@angular2-material/input\';'

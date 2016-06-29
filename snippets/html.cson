@@ -1,0 +1,4 @@
+'.source.html':
+  'importButton':
+    'prefix': 'md2button'
+    'body': 'import { MD_BUTTON_DIRECTIVES } from \'@angular2-material/button\';'
