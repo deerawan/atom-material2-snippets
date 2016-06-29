@@ -14,3 +14,24 @@
   'importInput':
     'prefix': 'md2-imp-input',
     'body': 'import { MD_INPUT_DIRECTIVES } from \'@angular2-material/input\';'
+  'importList':
+    'prefix': 'md2-imp-list',
+    'body': 'import { MD_LIST_DIRECTIVES } from \'@angular2-material/list\';'
+  'importProgressBar':
+    'prefix': 'md2-imp-progress-bar',
+    'body': 'import { MD_PROGRESS_BAR_DIRECTIVES } from \'@angular2-material/progress-bar\';'
+  'importProgressCircle':
+    'prefix': 'md2-imp-progress-circle',
+    'body': 'import { MD_PROGRESS_CIRCLE_DIRECTIVES } from \'@angular2-material/progress-circle\';'
+  'importRadio':
+    'prefix': 'md2-imp-radio',
+    'body': 'import { MD_RADIO_DIRECTIVES, MdRadioDispatcher } from \'@angular2-material/radio\';'
+  'importSidenav':
+    'prefix': 'md2-imp-sidenav',
+    'body': 'import { MD_SIDENAV_DIRECTIVES } from \'@angular2-material/sidenav\';'
+  'importTabs':
+    'prefix': 'md2-imp-tabs',
+    'body': 'import { MD_TABS_DIRECTIVES } from \'@angular2-material/tabs\';'
+  'importToolbar':
+    'prefix': 'md2-imp-toolbar',
+    'body': 'import { MD_TOOLBAR_DIRECTIVES } from \'@angular2-material/toolbar\';'
