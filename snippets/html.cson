@@ -23,3 +23,43 @@
       </button>
     """
     'description': 'Material 2 Raised Button'
+  'button mini fab':
+    'prefix': 'md2-mini-fab'
+    'body': """
+      <button md-mini-fab>
+        <md-icon class=\"${icon}\"></md-icon>
+      </button>
+    """
+    'description': 'Material 2 Mini FAB Button'
+  'card':
+    'prefix': 'md2-card'
+    'body': """
+      <md-card>
+        <md-card-title>${title}</md-card-title>
+        <md-card-content>${content}</md-card-content>
+      </md-card>
+    """
+    'description': 'Material 2 Card'
+  'Checkbox':
+    'prefix': 'md2-checkbox'
+    'body': "<md-checkbox>${content}</md-checkbox>"
+    'description': 'Material 2 Checkbox'
+  'Grid List':
+    'prefix': 'md2-grid-list'
+    'body': """
+      <md-grid-list>
+        <md-grid-tile>
+          <md-grid-tile-header>${header}</md-grid-tile-header>
+          <md-grid-tile-footer>${footer}</md-grid-tile-footer>
+        </md-grid-tile>
+      </md-grid-list>
+    """
+    'description': 'Material 2 Grid List'
+  'Icon':
+    'prefix': 'md2-icon'
+    'body': '<md-icon svgIcon=\"${icon}\"></md-icon>'
+    'description': 'Material 2 Icon using SVG icon'
+  'Icon SVG Src':
+    'prefix': 'md2-icon-src'
+    'body': '<md-icon svgSrc=\"${iconSrc}.svg\"></md-icon>'
+    'description': 'Material 2 Icon using SVG src'
