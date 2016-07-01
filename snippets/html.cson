@@ -63,3 +63,49 @@
     'prefix': 'md2-icon-src'
     'body': '<md-icon svgSrc=\"${iconSrc}.svg\"></md-icon>'
     'description': 'Material 2 Icon using SVG src'
+  'Icon SVG Src':
+    'prefix': 'md2-icon-font'
+    'body': '<md-icon fontSet=\"${fontSet}\" fontIcon=\"${fontIcon}\"></md-icon>'
+    'description': 'Material 2 Icon using Font set'
+  'Input':
+    'prefix': 'md2-input'
+    'body': '<md-input placeholder=\"${placeholder}\" value=\"${value}\"></md-input>'
+    'description': 'Material 2 Input'
+  'Input with hint':
+    'prefix': 'md2-input-hint'
+    'body': """
+      <md-input placeholder=\"${placeholder}\" value=\"${value}\">
+        <md-hint align=\"${align}\"></md-hint>
+      </md-input>
+    """
+    'description': 'Material 2 Input with hint'
+  'List':
+    'prefix': 'md2-list'
+    'body': """
+      <md-list>
+        <md-list-item *ngFor=\"${ngFor}\">
+          <p md-line></p>
+        </md-list-item>
+      </md-list>
+    """
+    'description': 'Material 2 List'
+  'List Dense':
+    'prefix': 'md2-dense-list'
+    'body': """
+      <md-list dense>
+        <md-list-item *ngFor=\"${ngFor}\">
+          <p md-line></p>
+        </md-list-item>
+      </md-list>
+    """
+    'description': 'Material 2 Dense List'
+  'List Nav':
+    'prefix': 'md2-nav-list'
+    'body': """
+      <md-nav-list>
+        <md-list-item *ngFor=\${ngFor}\>
+          <p md-line></p>
+        </md-list-item>
+      </md-nav-list>
+    """
+    'description': 'Material 2 Dense List'
