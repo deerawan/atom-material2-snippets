@@ -83,7 +83,7 @@
     'prefix': 'md2-list'
     'body': """
       <md-list>
-        <md-list-item *ngFor=\"${ngFor}\">
+        <md-list-item *ngFor=\"${1:ngFor}\">
           <p md-line></p>
         </md-list-item>
       </md-list>
@@ -93,7 +93,7 @@
     'prefix': 'md2-dense-list'
     'body': """
       <md-list dense>
-        <md-list-item *ngFor=\"${ngFor}\">
+        <md-list-item *ngFor=\"${1:ngFor}\">
           <p md-line></p>
         </md-list-item>
       </md-list>
@@ -103,7 +103,7 @@
     'prefix': 'md2-nav-list'
     'body': """
       <md-nav-list>
-        <md-list-item *ngFor=\${ngFor}\>
+        <md-list-item *ngFor=\${1:ngFor}\>
           <p md-line></p>
         </md-list-item>
       </md-nav-list>
@@ -111,21 +111,21 @@
     'description': 'Material 2 Nav List'
   'Progress Bar':
     'prefix': 'md2-progress-bar'
-    'body': '<md-progress-bar mode=\"${mode}\" [value]=\"${value}\"></md-progress-bar>'
+    'body': '<md-progress-bar mode=\"${1:mode}\" [value]=\"${2:value}\"></md-progress-bar>'
     'description': 'Material 2 Progress Bar'
   'Progress Circle':
     'prefix': 'md2-progress-circle'
-    'body': '<md-progress-circle mode=\"${mode}\" [value]=\"${value}\"></md-progress-circle>'
+    'body': '<md-progress-circle mode=\"${1:mode}\" [value]=\"${2:value}\"></md-progress-circle>'
     'description': 'Material 2 Progress Circle'
   'Radio':
     'prefix': 'md2-radio'
-    'body': '<md-radio-button name=\"${name}\"></md-radio-button>'
+    'body': '<md-radio-button name=\"${1:name}\"></md-radio-button>'
     'description': 'Material 2 Radio'
   'Sidenav':
     'prefix': 'md2-sidenav'
     'body': """
       <md-sidenav-layout>
-        <md-sidenav>${content}</md-sidenav>
+        <md-sidenav>${1:content}</md-sidenav>
       </md-sidenav-layout>
     """
     'description': 'Material 2 Sidenav'
@@ -133,7 +133,7 @@
     'prefix': 'md2-tab'
     'body': """
       <md-tab-group>
-        <md-tab>${content}</md-tab>
+        <md-tab>${1:content}</md-tab>
       </md-tab-group>
     """
     'description': 'Material 2 Tab'
