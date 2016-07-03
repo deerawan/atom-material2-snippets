@@ -1,7 +1,7 @@
 '.text.html':
   'button basic':
     'prefix': 'md2-button'
-    'body': '<button md-button>${content}</button>'
+    'body': '<button md-button>${1:content}</button>'
     'description': 'Material 2 Button'
   'button icon':
     'prefix': 'md2-icon-button'
@@ -13,13 +13,13 @@
     'description': 'Material 2 Icon Button'
   'button raised':
     'prefix': 'md2-raised-button'
-    'body': '<button md-raised-button>${content}</button>'
+    'body': '<button md-raised-button>${1:content}</button>'
     'description': 'Material 2 Raised Button'
   'button fab':
     'prefix': 'md2-fab'
     'body': """
       <button md-fab>
-        <md-icon class=\"${icon}\"></md-icon>
+        <md-icon class=\"${1:icon}\"></md-icon>
       </button>
     """
     'description': 'Material 2 Raised Button'
@@ -27,7 +27,7 @@
     'prefix': 'md2-mini-fab'
     'body': """
       <button md-mini-fab>
-        <md-icon class=\"${icon}\"></md-icon>
+        <md-icon class=\"${1:icon}\"></md-icon>
       </button>
     """
     'description': 'Material 2 Mini FAB Button'
@@ -35,47 +35,47 @@
     'prefix': 'md2-card'
     'body': """
       <md-card>
-        <md-card-title>${title}</md-card-title>
-        <md-card-content>${content}</md-card-content>
+        <md-card-title>${1:title}</md-card-title>
+        <md-card-content>${2:content}</md-card-content>
       </md-card>
     """
     'description': 'Material 2 Card'
   'Checkbox':
     'prefix': 'md2-checkbox'
-    'body': "<md-checkbox>${content}</md-checkbox>"
+    'body': "<md-checkbox>${1:content}</md-checkbox>"
     'description': 'Material 2 Checkbox'
   'Grid List':
     'prefix': 'md2-grid-list'
     'body': """
       <md-grid-list>
         <md-grid-tile>
-          <md-grid-tile-header>${header}</md-grid-tile-header>
-          <md-grid-tile-footer>${footer}</md-grid-tile-footer>
+          <md-grid-tile-header>${1:header}</md-grid-tile-header>
+          <md-grid-tile-footer>${2:footer}</md-grid-tile-footer>
         </md-grid-tile>
       </md-grid-list>
     """
     'description': 'Material 2 Grid List'
   'Icon':
     'prefix': 'md2-icon'
-    'body': '<md-icon svgIcon=\"${icon}\"></md-icon>'
+    'body': '<md-icon svgIcon=\"${1:icon}\"></md-icon>'
     'description': 'Material 2 Icon using SVG icon'
   'Icon SVG Src':
     'prefix': 'md2-icon-src'
-    'body': '<md-icon svgSrc=\"${iconSrc}.svg\"></md-icon>'
+    'body': '<md-icon svgSrc=\"${1:iconSrc}.svg\"></md-icon>'
     'description': 'Material 2 Icon using SVG src'
   'Icon SVG Src':
     'prefix': 'md2-icon-font'
-    'body': '<md-icon fontSet=\"${fontSet}\" fontIcon=\"${fontIcon}\"></md-icon>'
+    'body': '<md-icon fontSet=\"${1:fontSet}\" fontIcon=\"${2:fontIcon}\"></md-icon>'
     'description': 'Material 2 Icon using Font set'
   'Input':
     'prefix': 'md2-input'
-    'body': '<md-input placeholder=\"${placeholder}\" value=\"${value}\"></md-input>'
+    'body': '<md-input placeholder=\"${1:placeholder}\" value=\"${2:value}\"></md-input>'
     'description': 'Material 2 Input'
   'Input with hint':
     'prefix': 'md2-input-hint'
     'body': """
-      <md-input placeholder=\"${placeholder}\" value=\"${value}\">
-        <md-hint align=\"${align}\"></md-hint>
+      <md-input placeholder=\"${1:placeholder}\" value=\"${2:value}\">
+        <md-hint align=\"${3:align}\"></md-hint>
       </md-input>
     """
     'description': 'Material 2 Input with hint'
